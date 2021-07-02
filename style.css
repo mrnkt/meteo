@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/moyen.jpg");
+  height: 100vh;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+}
+
+.infos {
+  text-align: center;
+}
+
+#ville {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+}
+
+#temp {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+#desc {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  color: white;
+}
+
+.backgroundchaud {
+  background-image: url("images/beach.jpg");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* object-fit: cover; */
+}
+
+.backgroundfroid {
+  background-image: url("images/snow2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.zonecanvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
